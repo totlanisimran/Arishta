@@ -1,0 +1,63 @@
+.landing-container {
+    text-align: center;
+    padding: 4rem 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .landing-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 1rem;
+  }
+  
+  .landing-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2.5rem;
+  }
+  
+  /* Module bar container */
+  .module-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  
+  .module-tabs {
+    display: flex;
+    background-color: #413f3f;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .tab {
+    background-color: transparent;
+    border: none;
+    padding: 0.7rem 1.8rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab:hover {
+    background-color: #5e39e0;
+  }
+  
+  .tab.active {
+    background-color: #111;
+    color: white;
+  }
+  
+  .landing-image {
+    width: 75%;
+    height: auto;
+    border-radius: 12px;
+  }
+  

@@ -1,0 +1,26 @@
+#file-upload {
+    display: none;
+}
+
+.file-upload-button {
+    background-color: white;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-family: inherit;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.file-upload-button:hover {
+    border-color: #646cff
+}
+
+.action-button{
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+
